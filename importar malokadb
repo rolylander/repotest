@@ -1,0 +1,2 @@
+-- para importar en linux, ejecutar el siguiente comado:
+psql -U USERNAME DBNAME < dbexport.pgsql   --username debe ser un usuario existente. y dbname debe ser una base de datos creada previamente, ej: Malokadb.
