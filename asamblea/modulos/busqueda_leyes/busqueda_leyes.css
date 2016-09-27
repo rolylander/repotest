@@ -1,0 +1,205 @@
+@font-face {
+	font-family: 'OpenSans';
+    src: url('../../fonts/opensans/original_OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/opensans/original_OpenSans-Regular.woff') format('woff'),
+         url('../../fonts/opensans/original_OpenSans-Regular.ttf') format('truetype'),
+         url('../../fonts/opensans/original_OpenSans-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body
+{
+	font-family: OpenSans;
+}
+/*COLORES*/
+.bgAzul
+{
+	background-color: #0f4382;
+}
+.bgRojo{
+	background:red;
+}
+.bgAmarillo{
+	background: yellow;
+}
+.bgVerde{
+	background: green;
+}
+
+.cAzul
+{
+	color: #0f4382;
+}
+.cBlanco
+{
+	color: white;
+}
+
+
+/*------*/
+
+#redes
+{
+	margin-top: 10px;
+	border-bottom: 3px silver solid;
+}
+#redes p
+{
+	padding-top: 5px; 
+}
+#redes ul
+{
+	padding:0; 
+}
+#redes ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin-right: 8px;
+	width: 28px;
+	height: 28px;
+	padding: 3px 7px;
+	border-radius: 3px;
+}
+#redes ul .facebook
+{
+	background: #3B5998;
+	
+}
+#redes ul .twitter
+{
+	background: #1DA1F2;
+}
+#logo
+{
+	height: 113px;
+	background-image: url('./../../img/fondo_azul.jpg');
+	background-repeat: repeat-x;
+	text-align: center;
+	padding-top: 5px;
+	position: relative;
+}
+#logo .bandera
+{
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+  	transform: translate(-50%, 0);
+}
+.buscador
+{
+	height: 55px;
+	background-color: #ddd;
+	
+	border-top: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+	
+	box-shadow: 2px 0 1px rgba(0, 0, 0, 0.5);
+	padding-top: 9px;
+}
+.buscador .input-group
+{
+	max-width: 450px;
+	text-align: center;
+	margin: 0 auto;
+}
+.buscador .inputSombra
+{
+	box-shadow: inset 3px 2px 7px rgba(0, 0, 0, 0.2)
+}
+
+
+/*.centrado*/
+/*{*/
+	/*margin: 0 auto;*/
+	/*width: 300px;*/
+/*}*/
+
+#titulo_ley_estado
+{
+	padding-top: 0.4em;
+	border-bottom: 2px #dbdbdb solid;
+}
+
+#titulo_ley_estado ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 0.8em;
+}
+
+.vinieta
+{
+	border-radius: 10px;
+	height: 10px;
+	width: 10px;
+	margin-right: 3px;
+}
+.nombre_estado
+{
+	margin-right: 10px;
+}
+/* tabla */
+.titulo_ley div{
+	display: block;
+}
+
+
+.vinieta_tabla
+{
+	border-radius: 7px;
+	height: 7px;
+	width: 7px;
+	margin-right: 0.8em;
+}
+
+.datos_titulo div{
+	padding: 0em 0em;
+}
+
+.resultado_tabla{
+	padding: 0.8em 0 0.8em 0;
+}
+
+/* div tabla*/
+.contenedor-tabla{
+	display: table;
+}
+.contenedor-fila{
+
+	display: table-row;
+
+}
+.contenedor-columna{
+
+	display: table-cell;
+
+}
+
+.fin-tabla{
+	height: 1.2em;
+}
+footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-bottom: 4px solid #ddd;
+	text-align: center;
+	background: white;
+	padding-top: 8px;
+}
+footer div
+{
+	height: 3px;
+	width: 100px;
+	margin: 0 auto;
+}
+@media (max-width: 768px) {
+	footer{
+		border-top: #ddd solid 1px ;
+	}
+	#titulo_ley_estado ul{
+		margin-left: 20%;
+	}
+}
+
